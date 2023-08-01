@@ -37,7 +37,7 @@ def get_shot_times(shot_stats_path, shot_txt_path, video_id):
     txt_path = os.path.join(shot_txt_path, f"{video_id}.txt")
 
     time_info = pd.read_csv(stats_path, skiprows=2, header=None)
-    time_info = [0.]+list(time_info.iloc[:, 1])
+    time_info = [0.]+list(time_info.iloc[:, 1]) # add 0. to align index of frame
     time_info = [round(num, 2) for num in time_info]
 
     frame_info = pd.read_csv(txt_path, header=None, sep='\s+')
