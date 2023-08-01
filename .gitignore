@@ -1,0 +1,27 @@
+# testing file
+vss_evaluation/testing.py
+shot_detection/pre/ShotDetection/testing11.py
+shot_detection/shot_detection_result/testing.py
+scene_segmentation/vss_result/testing.py
+scene_segmentation/SceneSeg/testing.py
+
+# folder with intermediate results
+shot_detection/shot_detection_result/gt_test/
+shot_detection/shot_detection_result/gt_test_txt/
+shot_detection/shot_detection_result/shot_keyf/
+shot_detection/shot_detection_result/shot_stats/
+shot_detection/shot_detection_result/shot_txt/
+scene_segmentation/vss_result/
+scene_segmentation/SceneSeg/output/
+
+
+# folder with trained parameter
+scene_segmentation/trained_models/
+
+# folder with shot embedding vectors
+scene_segmentation/embeddings/
+
+# data
+scene_segmentation/data/
+
+
