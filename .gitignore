@@ -13,6 +13,7 @@ shot_detection/shot_detection_result/shot_stats/
 shot_detection/shot_detection_result/shot_txt/
 scene_segmentation/vss_result/
 scene_segmentation/SceneSeg/output/
+query_retreival/shot_info_data/
 
 
 # folder with trained parameter
@@ -23,5 +24,3 @@ scene_segmentation/embeddings/
 
 # data
 scene_segmentation/data/
-
-
